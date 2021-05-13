@@ -7,7 +7,7 @@ const route = require("./routes");
 const app = express();
 app.use(express.static(path.join(__dirname, "public")));
 // const port = 3001;
-app.use(morgan("combined"));
+// app.use(morgan("combined"));
 app.engine("handlebars", exphdbs());
 app.set("view engine", "handlebars");
 app.set("views", path.join(__dirname, "/resources/views"));
