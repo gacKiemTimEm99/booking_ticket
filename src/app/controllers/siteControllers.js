@@ -2,8 +2,8 @@ class siteController {
   index(req, res) {
     res.render("home");
   }
-  search(req, res) {
-    res.render("search");
+  manage(req, res) {
+    res.render("manage");
   }
 }
 module.exports = new siteController();
