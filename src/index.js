@@ -6,7 +6,7 @@ const route = require("./routes");
 
 const app = express();
 app.use(express.static(path.join(__dirname, "public")));
-const port = 3001;
+const port = process.env.PORT;
 app.use(morgan("combined"));
 app.engine("handlebars", exphdbs());
 app.set("view engine", "handlebars");
