@@ -5,16 +5,14 @@
   "main": "src/index.js",
   "engines": {
     "node": "12.18.4",
-    "npm":"6.14.6"
-},
+    "npm": "6.14.6"
+  },
   "scripts": {
-    "dev":"nodemon --expect src/index.js",
-    "start":"node src/index.js",
+    "dev": "nodemon --expect src/index.js",
+    "start": "node src/index.js",
     "watch": "node-sass -w src/resources/scss/ --output src/public/css/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
- 
-  
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -23,9 +21,7 @@
     "node-sass": "^6.0.0"
   },
   "devDependencies": {
-    "morgan": "^1.10.0",
     "nodemon": "^2.0.7",
     "sass": "^1.32.12"
-    
   }
 }
